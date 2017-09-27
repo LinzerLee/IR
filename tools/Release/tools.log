@@ -1,0 +1,151 @@
+﻿  Parser.cpp
+c:\users\linzer\documents\visual studio 2015\projects\ir\tools\config\Parser.h(58): warning C4251: “tools::config::Parser::filepath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“tools::config::Parser”的客户端使用
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2628): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\users\linzer\documents\visual studio 2015\projects\ir\tools\config\Parser.h(59): warning C4251: “tools::config::Parser::content”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“tools::config::Parser”的客户端使用
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2628): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\users\linzer\documents\visual studio 2015\projects\ir\tools\config\Parser.h(60): warning C4251: “tools::config::Parser::cfg”: class“std::map<std::string,std::vector<std::string,std::allocator<_Ty>>,std::less<_Ty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>”需要有 dll 接口由 class“tools::config::Parser”的客户端使用
+          with
+          [
+              _Ty=std::string,
+              _Kty=std::string
+          ]
+  c:\users\linzer\documents\visual studio 2015\projects\ir\tools\config\Parser.h(20): note: 参见“std::map<std::string,std::vector<std::string,std::allocator<_Ty>>,std::less<_Ty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>”的声明
+          with
+          [
+              _Ty=std::string,
+              _Kty=std::string
+          ]
+  Appender.cpp
+c:\users\linzer\documents\visual studio 2015\projects\ir\tools\log\Layout.h(55): warning C4251: “tools::log::Layout::params”: class“std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“tools::log::Layout”的客户端使用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  c:\users\linzer\documents\visual studio 2015\projects\ir\tools\log\Layout.h(20): note: 参见“std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+c:\users\linzer\documents\visual studio 2015\projects\ir\tools\log\Layout.h(56): warning C4251: “tools::log::Layout::default_params”: class“std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“tools::log::Layout”的客户端使用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  c:\users\linzer\documents\visual studio 2015\projects\ir\tools\log\Layout.h(20): note: 参见“std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+c:\users\linzer\documents\visual studio 2015\projects\ir\tools\log\Layout.h(57): warning C4251: “tools::log::Layout::pattern”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“tools::log::Layout”的客户端使用
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2628): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  Layout.cpp
+c:\users\linzer\documents\visual studio 2015\projects\ir\tools\log\Layout.h(55): warning C4251: “tools::log::Layout::params”: class“std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“tools::log::Layout”的客户端使用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  c:\users\linzer\documents\visual studio 2015\projects\ir\tools\log\Layout.h(20): note: 参见“std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+c:\users\linzer\documents\visual studio 2015\projects\ir\tools\log\Layout.h(56): warning C4251: “tools::log::Layout::default_params”: class“std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“tools::log::Layout”的客户端使用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  c:\users\linzer\documents\visual studio 2015\projects\ir\tools\log\Layout.h(20): note: 参见“std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+c:\users\linzer\documents\visual studio 2015\projects\ir\tools\log\Layout.h(57): warning C4251: “tools::log::Layout::pattern”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“tools::log::Layout”的客户端使用
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2628): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+log\Layout.cpp(200): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+  Logger.cpp
+c:\users\linzer\documents\visual studio 2015\projects\ir\tools\log\Logger.h(51): warning C4251: “tools::log::Logger::appenders”: class“std::vector<tools::log::Appender *,std::allocator<_Ty>>”需要有 dll 接口由 class“tools::log::Logger”的客户端使用
+          with
+          [
+              _Ty=tools::log::Appender *
+          ]
+  c:\users\linzer\documents\visual studio 2015\projects\ir\tools\log\Logger.h(51): note: 参见“std::vector<tools::log::Appender *,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=tools::log::Appender *
+          ]
+  Utility.cpp
+c:\users\linzer\documents\visual studio 2015\projects\ir\tools\./config/Parser.h(58): warning C4251: “tools::config::Parser::filepath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“tools::config::Parser”的客户端使用
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2628): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\users\linzer\documents\visual studio 2015\projects\ir\tools\./config/Parser.h(59): warning C4251: “tools::config::Parser::content”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“tools::config::Parser”的客户端使用
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2628): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\users\linzer\documents\visual studio 2015\projects\ir\tools\./config/Parser.h(60): warning C4251: “tools::config::Parser::cfg”: class“std::map<std::string,std::vector<std::string,std::allocator<_Ty>>,std::less<_Ty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>”需要有 dll 接口由 class“tools::config::Parser”的客户端使用
+          with
+          [
+              _Ty=std::string,
+              _Kty=std::string
+          ]
+  c:\users\linzer\documents\visual studio 2015\projects\ir\tools\Utility.h(13): note: 参见“std::map<std::string,std::vector<std::string,std::allocator<_Ty>>,std::less<_Ty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>”的声明
+          with
+          [
+              _Ty=std::string,
+              _Kty=std::string
+          ]
+c:\users\linzer\documents\visual studio 2015\projects\ir\tools\./log/Layout.h(55): warning C4251: “tools::log::Layout::params”: class“std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“tools::log::Layout”的客户端使用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  c:\users\linzer\documents\visual studio 2015\projects\ir\tools\./log/Layout.h(20): note: 参见“std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+c:\users\linzer\documents\visual studio 2015\projects\ir\tools\./log/Layout.h(56): warning C4251: “tools::log::Layout::default_params”: class“std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“tools::log::Layout”的客户端使用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  c:\users\linzer\documents\visual studio 2015\projects\ir\tools\./log/Layout.h(20): note: 参见“std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+c:\users\linzer\documents\visual studio 2015\projects\ir\tools\./log/Layout.h(57): warning C4251: “tools::log::Layout::pattern”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“tools::log::Layout”的客户端使用
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2628): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\users\linzer\documents\visual studio 2015\projects\ir\tools\./log/Logger.h(51): warning C4251: “tools::log::Logger::appenders”: class“std::vector<tools::log::Appender *,std::allocator<_Ty>>”需要有 dll 接口由 class“tools::log::Logger”的客户端使用
+          with
+          [
+              _Ty=tools::log::Appender *
+          ]
+  c:\users\linzer\documents\visual studio 2015\projects\ir\tools\./log/Logger.h(51): note: 参见“std::vector<tools::log::Appender *,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=tools::log::Appender *
+          ]
+Utility.cpp(39): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+Utility.cpp(124): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+Utility.cpp(140): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+Utility.cpp(154): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): note: 参见“vsprintf”的声明
+    正在创建库 C:\Users\Linzer\documents\visual studio 2015\Projects\IR\Release\tools.lib 和对象 C:\Users\Linzer\documents\visual studio 2015\Projects\IR\Release\tools.exp
+  正在生成代码
+c:\users\linzer\documents\visual studio 2015\projects\ir\tools\utility.cpp(172): warning C4715: “ConfigFirst”: 不是所有的控件路径都返回值
+  All 964 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  tools.vcxproj -> C:\Users\Linzer\documents\visual studio 2015\Projects\IR\Release\tools.dll

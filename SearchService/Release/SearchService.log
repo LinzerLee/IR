@@ -1,0 +1,22 @@
+﻿  main.cpp
+C:\Users\Linzer\documents\visual studio 2015\Projects\IR\include\tools/config/Parser.h(56): warning C4251: “tools::config::Parser::filepath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“tools::config::Parser”的客户端使用
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2628): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\Users\Linzer\documents\visual studio 2015\Projects\IR\include\tools/config/Parser.h(57): warning C4251: “tools::config::Parser::content”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“tools::config::Parser”的客户端使用
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2628): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\Users\Linzer\documents\visual studio 2015\Projects\IR\include\tools/config/Parser.h(58): warning C4251: “tools::config::Parser::cfg”: class“std::map<std::string,std::vector<std::string,std::allocator<_Ty>>,std::less<_Ty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>”需要有 dll 接口由 class“tools::config::Parser”的客户端使用
+          with
+          [
+              _Ty=std::string,
+              _Kty=std::string
+          ]
+  C:\Users\Linzer\documents\visual studio 2015\Projects\IR\include\Utility.h(13): note: 参见“std::map<std::string,std::vector<std::string,std::allocator<_Ty>>,std::less<_Ty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>”的声明
+          with
+          [
+              _Ty=std::string,
+              _Kty=std::string
+          ]
+main.cpp(122): warning C4102: “MAIN_END”: 未引用的标签
+  正在生成代码
+  All 223 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  SearchService.vcxproj -> C:\Users\Linzer\documents\visual studio 2015\Projects\IR\Release\SearchService.exe

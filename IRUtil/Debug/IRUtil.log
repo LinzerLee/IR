@@ -1,0 +1,81 @@
+﻿  SearchEngine.cpp
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\searchengine.cpp(136): warning C4244: “参数”: 从“unsigned __int64”转换到“size_t”，可能丢失数据
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\searchengine.cpp(187): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\searchengine.cpp(82): warning C4477: “sprintf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“unsigned __int64”
+  c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\searchengine.cpp(82): note: 请考虑在格式字符串中使用“%llu”
+  c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\searchengine.cpp(82): note: 请考虑在格式字符串中使用“%I64u”
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\searchengine.cpp(82): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\searchengine.cpp(149): warning C4477: “sprintf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“unsigned __int64”
+  c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\searchengine.cpp(149): note: 请考虑在格式字符串中使用“%llu”
+  c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\searchengine.cpp(149): note: 请考虑在格式字符串中使用“%I64u”
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\searchengine.cpp(149): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\searchengine.cpp(233): warning C4477: “sprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+  c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\searchengine.cpp(233): note: 请考虑在格式字符串中使用“%lld”
+  c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\searchengine.cpp(233): note: 请考虑在格式字符串中使用“%I64d”
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\searchengine.cpp(233): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\searchengine.cpp(277): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+  Lexer.cpp
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\lexer.cpp(123): warning C4018: “>=”: 有符号/无符号不匹配
+  Inverter.cpp
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(137): warning C4267: “=”: 从“size_t”转换到“IRUtil::_Int16”，可能丢失数据
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(138): warning C4267: “=”: 从“size_t”转换到“IRUtil::_Byte”，可能丢失数据
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(153): warning C4267: “=”: 从“size_t”转换到“IRUtil::_Int16”，可能丢失数据
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(165): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(116): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(271): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(276): warning C4018: “>=”: 有符号/无符号不匹配
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(283): warning C4018: “>=”: 有符号/无符号不匹配
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(290): warning C4018: “>=”: 有符号/无符号不匹配
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(337): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(399): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(405): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(411): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(438): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(459): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(197): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(214): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(232): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(533): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(500): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+e:\program files (x86)\microsoft visual studio 14.0\vc\include\utility(203): warning C4244: “初始化”: 从“unsigned __int64”转换到“int”，可能丢失数据
+  c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(105): note: 参见对正在编译的函数 模板 实例化“std::pair<int,std::vector<int,std::allocator<_Ty>>>::pair<unsigned __int64,std::vector<_Ty,std::allocator<_Ty>>,void,0>(std::pair<unsigned __int64,std::vector<_Ty,std::allocator<_Ty>>> &&) noexcept”的引用
+          with
+          [
+              _Ty=int
+          ]
+  c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\inverter.cpp(105): note: 参见对正在编译的函数 模板 实例化“std::pair<int,std::vector<int,std::allocator<_Ty>>>::pair<unsigned __int64,std::vector<_Ty,std::allocator<_Ty>>,void,0>(std::pair<unsigned __int64,std::vector<_Ty,std::allocator<_Ty>>> &&) noexcept”的引用
+          with
+          [
+              _Ty=int
+          ]
+  ASTUnaryExpr.cpp
+  ASTree.cpp
+  ASTParser.cpp
+  ASTOrExpr.cpp
+  ASTNotExpr.cpp
+  ASTExpression.cpp
+  ASTermExpr.cpp
+  ASTerm.cpp
+c:\users\linzer\documents\visual studio 2015\projects\ir\irutil\ast\asterm.cpp(33): warning C4244: “参数”: 从“unsigned __int64”转换到“size_t”，可能丢失数据
+  ASTBinaryExpr.cpp
+  ASTAndExpr.cpp
+  正在生成代码...
+  lib_json.lib(json_value.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+ASTAndExpr.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+lib_json.lib(json_value.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTAndExpr.obj 中)
+lib_json.lib(json_value.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(ASTAndExpr.obj 中)
+lib_json.lib(json_writer.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTAndExpr.obj 中)
+lib_json.lib(json_writer.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(ASTAndExpr.obj 中)
+    正在创建库 C:\Users\Linzer\documents\visual studio 2015\Projects\IR\Debug\IRUtil.lib 和对象 C:\Users\Linzer\documents\visual studio 2015\Projects\IR\Debug\IRUtil.exp
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+C:\Users\Linzer\documents\visual studio 2015\Projects\IR\Debug\IRUtil.dll : fatal error LNK1319: 检测到 4 个不匹配项

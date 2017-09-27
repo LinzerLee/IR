@@ -1,0 +1,18 @@
+﻿  HtmlParser.cpp
+HtmlParser.cpp(44): warning C4018: “<”: 有符号/无符号不匹配
+HtmlParser.cpp(52): warning C4018: “<”: 有符号/无符号不匹配
+HtmlParser.cpp(66): warning C4018: “>”: 有符号/无符号不匹配
+HtmlParser.cpp(79): warning C4018: “<=”: 有符号/无符号不匹配
+HtmlParser.cpp(83): warning C4018: “<”: 有符号/无符号不匹配
+HtmlParser.cpp(90): warning C4018: “<”: 有符号/无符号不匹配
+HtmlParser.cpp(94): warning C4018: “<=”: 有符号/无符号不匹配
+HtmlParser.cpp(105): warning C4018: “<=”: 有符号/无符号不匹配
+HtmlParser.cpp(109): warning C4018: “<”: 有符号/无符号不匹配
+HtmlParser.cpp(116): warning C4018: “<”: 有符号/无符号不匹配
+HtmlParser.cpp(120): warning C4018: “<=”: 有符号/无符号不匹配
+  Net.cpp
+    正在创建库 C:\Users\Linzer\documents\visual studio 2015\Projects\IR\Release\NetUtil.lib 和对象 C:\Users\Linzer\documents\visual studio 2015\Projects\IR\Release\NetUtil.exp
+  正在生成代码
+  All 191 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  NetUtil.vcxproj -> C:\Users\Linzer\documents\visual studio 2015\Projects\IR\Release\NetUtil.dll

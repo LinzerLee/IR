@@ -1,0 +1,75 @@
+﻿  ASTAndExpr.cpp
+  ASTBinaryExpr.cpp
+  ASTerm.cpp
+AST\ASTerm.cpp(33): warning C4244: “参数”: 从“unsigned __int64”转换到“size_t”，可能丢失数据
+  ASTermExpr.cpp
+  ASTExpression.cpp
+  ASTNotExpr.cpp
+  ASTOrExpr.cpp
+  ASTParser.cpp
+  ASTree.cpp
+  ASTUnaryExpr.cpp
+  Inverter.cpp
+Inverter.cpp(137): warning C4267: “=”: 从“size_t”转换到“IRUtil::_Int16”，可能丢失数据
+Inverter.cpp(138): warning C4267: “=”: 从“size_t”转换到“IRUtil::_Byte”，可能丢失数据
+Inverter.cpp(153): warning C4267: “=”: 从“size_t”转换到“IRUtil::_Int16”，可能丢失数据
+Inverter.cpp(165): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+Inverter.cpp(116): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+Inverter.cpp(271): warning C4018: “<”: 有符号/无符号不匹配
+Inverter.cpp(276): warning C4018: “>=”: 有符号/无符号不匹配
+Inverter.cpp(283): warning C4018: “>=”: 有符号/无符号不匹配
+Inverter.cpp(290): warning C4018: “>=”: 有符号/无符号不匹配
+Inverter.cpp(337): warning C4018: “<”: 有符号/无符号不匹配
+Inverter.cpp(399): warning C4018: “<”: 有符号/无符号不匹配
+Inverter.cpp(405): warning C4018: “<”: 有符号/无符号不匹配
+Inverter.cpp(411): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+Inverter.cpp(438): warning C4018: “<”: 有符号/无符号不匹配
+Inverter.cpp(459): warning C4018: “<”: 有符号/无符号不匹配
+Inverter.cpp(197): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+Inverter.cpp(214): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+Inverter.cpp(232): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+Inverter.cpp(533): warning C4018: “<”: 有符号/无符号不匹配
+Inverter.cpp(500): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(203): warning C4244: “初始化”: 从“unsigned __int64”转换到“int”，可能丢失数据
+  Inverter.cpp(105): note: 参见对正在编译的函数 模板 实例化“std::pair<int,std::vector<int,std::allocator<_Ty>>>::pair<unsigned __int64,std::vector<_Ty,std::allocator<_Ty>>,void,0>(std::pair<unsigned __int64,std::vector<_Ty,std::allocator<_Ty>>> &&) noexcept”的引用
+          with
+          [
+              _Ty=int
+          ]
+  Inverter.cpp(105): note: 参见对正在编译的函数 模板 实例化“std::pair<int,std::vector<int,std::allocator<_Ty>>>::pair<unsigned __int64,std::vector<_Ty,std::allocator<_Ty>>,void,0>(std::pair<unsigned __int64,std::vector<_Ty,std::allocator<_Ty>>> &&) noexcept”的引用
+          with
+          [
+              _Ty=int
+          ]
+  Lexer.cpp
+Lexer.cpp(123): warning C4018: “>=”: 有符号/无符号不匹配
+  SearchEngine.cpp
+SearchEngine.cpp(140): warning C4244: “参数”: 从“unsigned __int64”转换到“size_t”，可能丢失数据
+SearchEngine.cpp(194): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+SearchEngine.cpp(82): warning C4477: “sprintf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“unsigned __int64”
+  SearchEngine.cpp(82): note: 请考虑在格式字符串中使用“%llu”
+  SearchEngine.cpp(82): note: 请考虑在格式字符串中使用“%I64u”
+SearchEngine.cpp(82): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+SearchEngine.cpp(156): warning C4477: “sprintf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“unsigned __int64”
+  SearchEngine.cpp(156): note: 请考虑在格式字符串中使用“%llu”
+  SearchEngine.cpp(156): note: 请考虑在格式字符串中使用“%I64u”
+SearchEngine.cpp(156): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+SearchEngine.cpp(240): warning C4477: “sprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+  SearchEngine.cpp(240): note: 请考虑在格式字符串中使用“%lld”
+  SearchEngine.cpp(240): note: 请考虑在格式字符串中使用“%I64d”
+SearchEngine.cpp(240): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+SearchEngine.cpp(298): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+    正在创建库 C:\Users\Linzer\documents\visual studio 2015\Projects\IR\Release\IRUtil.lib 和对象 C:\Users\Linzer\documents\visual studio 2015\Projects\IR\Release\IRUtil.exp
+  正在生成代码
+  All 2554 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  IRUtil.vcxproj -> C:\Users\Linzer\documents\visual studio 2015\Projects\IR\Release\IRUtil.dll
